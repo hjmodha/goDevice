@@ -5,16 +5,19 @@ import (
   "net/http"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "Hello world!")
+func RouteHandler(w http.ResponseWriter, r *http.Request) {
+  fmt.Fprintf(w,"Root Requst")
 }
 
 func home(w http.ResponseWriter,r *http.Request){
-  fmt.Fprintf(w,"Home Page")
+  http.ServeFile(w, r, "html/index.html")
+}
+
+func notfound(w http.ResponseWriter,r *http.Request){
+  fmt.Fprintf(w,"Page Not found")
 }
 
 func main() {
-  http.HandleFunc("/", handler)
-  http.HandleFunc("/home", home)
+  http.HandleFunc("/", RouteHandler)
   http.ListenAndServe(":3000", nil)
 }
