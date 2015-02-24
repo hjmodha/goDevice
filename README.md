@@ -16,4 +16,4 @@ go get github.com/hiteshmodha/goDevice
   }
   ```
 
-for now goDevice is detecting 3 device only(Mobile,Desktop and Tablet). In future we will add support for SmartTV, Watch etc devices
+For now goDevice is detecting Mobile,Desktop and Tablet.In future we will add support for SmartTV, Watch etc
