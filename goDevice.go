@@ -26,12 +26,7 @@ var Database = map[string][]string{
 	},
 	"TV": []string{
 		"TV",
-		"GoogleTV",
-		"SmartTV",
-		"Internet TV",
 		"NetCast",
-		"NETTV",
-		"AppleTV",
 		"boxee",
 		"Kylo",
 		"Roku",
