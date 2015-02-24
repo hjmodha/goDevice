@@ -34,7 +34,7 @@ var Database = map[string][]string{
 	},
 }
 
-func IsMobile(r *http.Request) string {
+func GetType(r *http.Request) string {
 	userAgent := r.Header.Get("User-Agent")
 
 	for typ, list := range Database {
