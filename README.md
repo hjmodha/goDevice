@@ -1,4 +1,4 @@
-##Device Detection Package in Golang
+#Device Detection Library in Golang
 
 #Installing Package:
 ```
