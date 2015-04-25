@@ -16,8 +16,4 @@ go get github.com/hiteshmodha/goDevice
   }
   ```
 
-##Demo GIF
-
-![Demo GIF](https://raw.githubusercontent.com/hiteshmodha/goDevice/master/vd.gif)
-
 For now goDevice is detecting Mobile,Desktop and Tablet.In future we will add support for SmartTV, Watch etc
