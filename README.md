@@ -1,11 +1,11 @@
-#Device Detection Library in Golang
+###Device Detection Library in Golang
 
-#Installing Package:
+####Installing Package:
 ```
 go get github.com/hiteshmodha/goDevice
 ```
 
-##How To use Package to detect Device:
+####How To use Package to detect Device:
 ```
   if deviceType=="Mobile" {
     fmt.Fprintf(w,"<h1>Mobile</h1>")
